@@ -33,46 +33,60 @@ email-otp-app/
 
 ## ⚙️ Setup Instructions (For Local Use)
 
-1.  Clone repository
+1. **Clone the repository**
 
 ```bash
 git clone https://github.com/satya-473/email-otp-app.git
 cd email-otp-app
 
-2. ## Install the required packages
 
-   ```bash
-   pip install -r requirements.txt
+2. **Install the required packages**
 
-3.  Setup .env file
-     Create a .env file in the root directory and add:
+```bash
+pip install -r requirements.txt
+```
+
+3. **Setup `.env` file**
+
+Create a `.env` file in the root directory and add:
+
+```
 EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_password_or_app_password
 SMTP_SERVER=smtp.gmail.com
 SMTP_PORT=587
-"⚠️ If using Gmail, make sure to enable App Passwords and use that instead of your main password."
+```
 
-4.  🚀 Deploy on Streamlit Cloud
---> Push this project to a public GitHub repository
---> Go to Streamlit Cloud
---> Click Create App
---> Connect your GitHub repo
---> Set main.py as the main file
---> Add your .env values using "Secrets" tab
+⚠️ **If using Gmail**, make sure to enable [App Passwords](https://support.google.com/accounts/answer/185833?hl=en) and use that instead of your regular password.
 
-EMAIL_USER = your_email@gmail.com
-EMAIL_PASS = your_app_password
-SMTP_SERVER = smtp.gmail.com
-SMTP_PORT = 587
-✅ Done! Your app will be live and working.
+🚀 **Deploy on Streamlit Cloud**
 
-🙋‍♂️ Author
+-- > Push the project to GitHub.
+-- > Go to streamlit.io → "Create app".
+-- > Connect your GitHub repo.
+--> Add secrets via the ☰ → Settings → Secrets option like this:
+EMAIL_USER=your_email@gmail.com  
+EMAIL_PASS=your_email_password_or_app_password  
+SMTP_SERVER=smtp.gmail.com  
+SMTP_PORT=587
+
+ 4. **Run the app**
+ streamlit run main.py
+
+ 5. **🙋‍♂️ Author**
 Made with ❤️ by Satya
 GitHub: satya-473
 
 ---
 
 Let me know once you've updated it — I can help you make it even better if you'd like!
+
+
+ 
+
+
+
+
 
 
 

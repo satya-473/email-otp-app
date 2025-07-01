@@ -65,7 +65,8 @@ SMTP_PORT=587
 -- > Go to streamlit.io → "Create app".
 -- > Connect your GitHub repo.
 --> Add secrets via the ☰ → Settings → Secrets option like this:
-EMAIL_USER=your_email@gmail.com  
+
+EMAIL_USER=your_email@gmail.com
 EMAIL_PASS=your_email_password_or_app_password  
 SMTP_SERVER=smtp.gmail.com  
 SMTP_PORT=587
